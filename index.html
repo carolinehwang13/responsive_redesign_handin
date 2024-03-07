@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Redeisgn</title>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <h1>Responsive Redesign</h1>
+    <div id="part1">
+      <h2>Indentifying Usability Problems</h2>
+      <h3>Picking a Webpage</h3>
+      <p>
+        The webpage I am redesigning is
+        <a href="http://www.norbyscafe.com">Norby's Cafe</a>. I chose this
+        website because it's for a cafe in my hometown that I go to with my
+        family all the time, but their website is not very appealing and does
+        not represent the cozy vibes that you get going in-person. Here are some
+        screenshots of their current webpage:
+      </p>
+      <img
+        class="image"
+        src="./assets/image1.png"
+        alt="A screenshot of the current Norby's webpage"
+      />
+      <img
+        class="image"
+        src="./assets/image2.png"
+        alt="A second screenshot of the current Norby's webpage"
+      />
+      <img
+        class="image"
+        src="./assets/image3.png"
+        alt="A third screenshot of the current Norby's webpage"
+      />
+      <h3>Finding Problems</h3>
+      <table>
+        <tr>
+          <th>Good Usability</th>
+          <th>Bad Usability</th>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>Good color contrast on main page</li>
+              <li>Images have alt text</li>
+              <li>Linear layout, not too cluttered</li>
+              <li>HTML seems organized structurally (from what I can see)</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>
+                Layout is just one long scroll — could be difficult to find
+                specific sections of menu because you have to scroll all the way
+                down and look for it
+              </li>
+              <li>
+                It is not clear that the items on the menu section are links to
+                the online ordering website
+              </li>
+              <li>
+                Hard to tell where to go to online order — bad learnability
+              </li>
+              <li>The neon yellow background could overwhelm users</li>
+              <li>Text on menu section has bad contrast (yellow on white)</li>
+              <li>Some items have price, some do not</li>
+              <li>Difficult to see which price aligns with which item</li>
+              <li>Columns on menu section are misaligned at some points</li>
+              <li>There is a search bar, but it doesn’t do anything</li>
+              <li>There is a section that I think is trying to show it on Google Maps, but I always only see a “Google Maps platform rejected your request” error</li>
+              <li>Even though the website does what it needs to do, I think it could be made more overall efficient, appealing, and informative</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <h3>Accessibility</h3>
+      <p>
+        The only error that WebAIM WAVE gave me was a “missing form label”. It also gave some alerts like “redundant link”, “skipped heading level”, and “justified text”. I generally agree with the WebAIM WAVE report about the accessibility problems because since it is such a straightforward website (basically just text and images), it does not have many chances for it to go astray. I think that WebAIM WAVE is good at detecting accessibility issues when it comes to design choices that are represented in the code (like alt text, colors, etc.), but it doesn’t necessarily account for more subjective design choices, like layouts.
+      </p>
+    </div>
+    <div id="part2">
+        <h2>Visual Redesign</h2>
+        <h3>Speed Sketching</h3>
+            <img class="image" src="./assets/speed_sketch.jpg" alt="My speed sketch">
+        <h3>Final Sketch</h3>
+            <img class="image" src="./assets/final_sketch.jpg" alt="My final sketch part 1">
+            <img class="image" src="./assets/final_sketch_2.jpg" alt="My final sketch part 2">
+        <h3>Low-Fidelity Wireframing</h3>
+        <h3>Visual Design Style Guide</h3>
+            <p>The link to this style guide is also in the Figma linked to my high-fidelity mockup below.</p>
+            <img class="image" src="./assets/style_guide.png" alt="My style guide"/>
+        <h3>High-Fidelity Mockup</h3>
+            <a href="https://www.figma.com/file/9Ikne6sVN3errqRXwk9yj1/Responsive-Redesign?type=design&node-id=10%3A2&mode=design&t=opVk9coquB6q9vKJ-1">This is the link to my high-fideltiy mockup!</a>
+    </div>
+    <div id="part3">
+        <h2>Responsive Redesign</h2>
+        <a href="https://carolinehwang13.github.io/responsive_redesign/">This is the link to my deployed redesign!</a>
+    </div>
+  </body>
+</html>
